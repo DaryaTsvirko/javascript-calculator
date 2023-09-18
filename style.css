@@ -1,0 +1,42 @@
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    max-width: 300px; 
+   
+}
+
+.button-container button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50%; 
+    background-color: #ffff; 
+    color: #ed7a30; 
+    
+}
+
+.blue-button{
+    background-color: #ffff;
+    color: #343AEE !important;
+}
+
+body{
+    background-color: #343AEE;
+}
+input {
+    width: 300px; 
+    height: 40px; 
+    font-size: 18px; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.container{
+ border: 2px solid white;
+ padding: 0; 
+ margin: 0;
+ box-sizing: border-box; 
+}
+
+.container * {
+    box-sizing: border-box; /* Учитываем размер рамки внутри всех дочерних элементов контейнера */
+}
