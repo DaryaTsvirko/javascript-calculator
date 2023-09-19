@@ -36,7 +36,6 @@ input {
  margin: 0;
  box-sizing: border-box; 
 }
-
-.container * {
-    box-sizing: border-box; /* Учитываем размер рамки внутри всех дочерних элементов контейнера */
+#myInput{
+    color: green;
 }
